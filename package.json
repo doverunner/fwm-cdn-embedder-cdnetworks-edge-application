@@ -1,0 +1,14 @@
+{
+  "name": "@doverunner/fwm-embedder-cdnetworks-edge-application",
+  "version": "3.0.0",
+  "private": true,
+  "description": "DoveRunner forensic watermark CDN embedder sample for CDNetworks Edge Application",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "bundle": "esbuild index.js --bundle --format=iife --target=es2022 --legal-comments=none --outfile=dist/index.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}
